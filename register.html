@@ -5,23 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<header>
-		<div class="logo-text">
+	<header class="header">
+		<div class="logo">
 			<a href="index.html">
-				<img class="logo" src="img/logo.png" alt="logo">
-				<h1 class="header-text">Foodar</h1>
+				<img src="img/logo.png" alt="logo">
 			</a>
 		</div>
 	</header>
-	<section>
-		<div>
-			<h2>Register</h2>
+	<section id="register" class="main-container">
+		<div class="heading">
+			<h2 class="heading-text">Register</h2>
+			<div class="underline"></div>
 		</div>
-		<div>
+		<div class="wrapper width-60">
 			<p>Please fill out the form below:</p>
 			<form>
 				<div class="f-group">
-					<h5>Personal Information:</h5>
+					<h3>Personal Information:</h3>
 						<div class = "form-item"> 
 							<input type="email" name="email" placeholder="Email" required="">
 						</div>
@@ -36,7 +36,7 @@
 						</div>
 				</div>
 				<div class="f-group">
-					<h5>Contact Information:</h5>
+					<h3>Contact Information:</h3>
 					<div class = "form-item">
 						<input type="text" name="address" placeholder="Address" required="">
 					</div>
@@ -51,13 +51,47 @@
 					</div>
 				</div>
 				<div  class = "form-item">
-					<input type="submit" value="Register">
+					<input type="submit" class="finp-btn" value="Register">
 				</div>
 			</form>
 		</div>
 	</section>
-	<footer>
-		This the footer of the page for now!
+	<footer class="footer">
+		<div class = "footer-container">
+			<div class="site-map">
+				<div class="f-heading">
+					<h2>Site Map</h2>
+				</div>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+			</div>
+			<div class="site-map">
+				<div class="f-heading">
+					<h2>Legal</h2>
+				</div>
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms and Conditions</a></li>
+					</ul>
+			</div>
+			<div class="site-map">
+				<div class="f-heading">
+					<h2>Site Map</h2>
+				</div>
+					<ul>
+						<li class="foot-menu"><a href="index.html">Home</a></li>
+						<li><a href="register.html">Register</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+			</div>
+		</div>
+		<section class="copyright">
+			<p> &copy;2015. All rights reserved. </p>
+			<p>Version 1.0</p>
+		</section>
 	</footer>
 </body>
 
