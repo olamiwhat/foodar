@@ -3,12 +3,14 @@
 <head>
 	<title>Register</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header class="header">
 		<div class="logo">
 			<a href="index.html">
-				<img src="img/logo.png" alt="logo">
+				<img src="img/logo.png" alt="logo"><p>Foodar</p>
 			</a>
 		</div>
 	</header>
@@ -18,10 +20,10 @@
 			<div class="underline"></div>
 		</div>
 		<div class="wrapper width-60">
-			<p>Please fill out the form below:</p>
+			<p class="fill-form">Please fill out the form below:</p>
 			<form>
-				<div class="f-group">
-					<h3>Personal Information:</h3>
+				<div class="f-group f-group1">
+						<h3>Personal Information:</h3>
 						<div class = "form-item"> 
 							<input type="email" name="email" placeholder="Email" required="">
 						</div>
@@ -36,30 +38,30 @@
 						</div>
 				</div>
 				<div class="f-group">
-					<h3>Contact Information:</h3>
-					<div class = "form-item">
-						<input type="text" name="address" placeholder="Address" required="">
-					</div>
-					<div class = "form-item">
-						<input type="text" name="address" placeholder="Street" required="">
-					</div>
-					<div class = "form-item">
-						<input type="text" name="address" placeholder="City" required="">
-					</div>
-					<div class = "form-item">
-						<input type="text" name="address" placeholder="Zipcode" required="">
-					</div>
+						<h3>Contact Information:</h3>
+						<div class = "form-item">
+							<input type="text" name="address" placeholder="Address" required="">
+						</div>
+						<div class = "form-item">
+							<input type="text" name="address" placeholder="Street" required="">
+						</div>
+						<div class = "form-item">
+							<input type="text" name="address" placeholder="City" required="">
+						</div>
+						<div class = "form-item">
+							<input type="text" name="address" placeholder="Zipcode" required="">
+						</div>
 				</div>
-				<div  class = "form-item">
-					<input type="submit" class="finp-btn" value="Register">
+				<div class="submit-btn">
+					<input type="submit" class="submit" value="Register">
 				</div>
 			</form>
 		</div>
 	</section>
 	<footer class="footer">
 		<div class = "footer-container">
-			<div class="site-map">
-				<div class="f-heading">
+			<div class="footer-section">
+				<div class="footer-heading">
 					<h2>Site Map</h2>
 				</div>
 					<ul>
@@ -68,28 +70,29 @@
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 			</div>
-			<div class="site-map">
-				<div class="f-heading">
+			<div class="footer-section">
+				<div class="footer-heading">
 					<h2>Legal</h2>
 				</div>
 					<ul>
 						<li><a href="#">Privacy Policy</a></li>
 						<li><a href="#">Terms and Conditions</a></li>
+						<li><a href="#">File a claim</a></li>
 					</ul>
 			</div>
-			<div class="site-map">
-				<div class="f-heading">
+			<div class="footer-section">
+				<div class="footer-heading">
 					<h2>Site Map</h2>
 				</div>
 					<ul>
-						<li class="foot-menu"><a href="index.html">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="register.html">Register</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 			</div>
 		</div>
 		<section class="copyright">
-			<p> &copy;2015. All rights reserved. </p>
+			<p>&copy; 2015. All rights reserved.</p>
 			<p>Version 1.0</p>
 		</section>
 	</footer>
