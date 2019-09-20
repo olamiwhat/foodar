@@ -1,158 +1,14 @@
 body, html {
 	background-color: #FFEFE8;
 	font-family: 'Droid Serif', serif;
+	display: block;
 	font-size: 15px;
     font-weight: normal;
     line-height: 26px;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
-
-
-.logo img{
-	width: 5%;
-}
-
-
-
-.main-container {
-	display: block;
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  
-}
-
-
-.footer-container {
-	display: block;
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;  
-}
-
-.how-to-container{
-	display: block;
-	padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
-}
-
-.heading {
-	text-align: center;
-}
-
-.heading-text{
-  
-}
-
-
-.clear {
-	clear: both;
-}
-
-
-.hiw {
-	text-align: center;
-	margin: 10px;
-	padding: 20px;
-}
-
-.underline {
-	height: 3px;
-	background: #eaeaea;
-}
-
-
-.wrapper {
-	min-height: 240px;
-	padding: 3em;
-	width: 100px;
-	/*height: 100px;*/
-	margin: 0 auto;
-}
-
-
-.width-60{
-	width: 60%;
-	margin: 0 auto;
-}
-
-
-.f-group {
-	margin
-}
-
-
-
-.form-item {
-	width: 47%;
-	float: left;
-	margin: 10px;
-
-}
-
-
-.form-item input {
-	width: 90%;
-	margin: 10px;
-	padding: 20px;
-	font-size: 14px;
-	background:;
-	border:1px solid #f3f3f3;
-	border-radius: 10px;
-}
-
-
-
-.finp-btn{
-	background-color: #000;
-    color:#fff;
-    padding: 20px 25px !important;
-    border-radius: 6px;
-    border: none;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    width: 40% !important
-}
-
-
-.finp-btn:hover{
-  background-color: #ccad52;
-  color:#fff;
-}
-
-.site-map {
-	display: inline-block;
-	width: 33%;
-	float: left;
-}
-
-
-.site-map ul {
-  margin:40px 30px 30px 0px;
-  padding:0px;
-
-}
-
-
-.site-map ul li {
-  margin: 10px 0px;
-  
-}
-
-
-
-.f-heading h3{
-
-}
-
 
 
 ul {
@@ -164,23 +20,207 @@ a {
 }
 
 
-.footer {
-	clear: both;
-    position: relative;
-    /*height: 200px;*/
-    margin-top: -200px;
-    background: #462E2F;
-    color: white
+.logo img, p {
+	display: inline-block;
+}
+
+
+.logo img{
+	width: 60px;
+	height: 60px;
+	position: relative;
+ 	top: 15px;
+ 	padding-left: 5px;
+}
+
+
+.logo p {
+	margin-left: 5px;
+  	color: #462E2F;
+  	font-size: 20px;
+  	font-weight: 10px;
+  	font-family: 'Sigmar One', cursive;
+}
+
+
+.main-container {
+	display: block;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100%
+  
+}
+
+
+.heading {
+	text-align: center;
+}
+
+
+.heading-text {
+	color: rgba(255, 0, 0, 0.8);
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3em;
+}
+
+
+.underline {
+	height: 3px;
+	background: rgba(70, 46, 47, 0.8);
+	width: 40%;
+	margin: 0 auto;
+}
+
+
+.width-60{
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+.wrapper {
+	padding: 3em;
+}
+
+
+.fill-form{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.5em;
+	color: rgba(153, 0, 0, 1)
+}
+
+
+.form-item {
+	width: 47%;
+	float: left;
+	margin: 10px;
 
 }
+
+
+.form-item input {
+	clear: both;
+	width: 90%;
+	margin: 10px;
+	padding: 20px;
+	font-size: 14px;
+	background:;
+	border:1px solid #f3f3f3;
+	border-radius: 10px;
+}
+
+
+.f-group {
+	clear: both;
+	margin-left: 20px;
+}
+
+
+.f-group h3{
+	clear: both;
+	text-transform: uppercase;
+	color: rgba(153, 0, 0, 1)
+}
+
+
+.f-group1 {
+	margin-bottom: 250px;
+}
+
+
+.submit-btn {
+	clear: both;
+	margin-top: 240px;
+	margin-left: 43px;
+}
+
+
+.submit{
+	background-color: #462E2F;
+    color:#fff;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+    padding: 15px 5px;
+    border-radius: 6px;
+    border: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    width: 15%;
+}
+
+
+.submit:hover{
+  background-color: rgba(153, 0, 0, 1);
+  color:#fff;
+}
+
+
+.footer {
+	clear: both;
+    background: #462E2F;
+    color: white;
+}
+
 
 .footer li a{
 	color: white;
 }
 
 
+.footer-container {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+.footer-section {
+	display: inline-block;
+	width: 33%;
+}
+
+
+.footer-section ul {
+  margin: 30px, 0;
+  padding:0px;
+}
+
+.footer-section li {
+  margin: 10px 0px; 
+}
+
 
 .copyright {
 	width: 100%;
 	text-align: center;
+}
+
+.how-to-container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100%;
+}
+
+.hiw {
+	text-align: center;
+	margin: 10px;
+	padding: 20px;
+}
+
+
+.hiw h2 {
+	text-transform: uppercase;
+	color: rgba(153, 0, 0, 1);
+}
+
+
+.hiw p {
+	font-size: 1.5em;
 }
